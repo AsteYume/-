@@ -12,8 +12,6 @@ public class Solution {
             if (count<0)
                 return false;
         }
-        if (count!=0)
-            return false;
-        return true;
+        return count == 0;
     }
 }
